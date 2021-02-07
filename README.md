@@ -17,12 +17,15 @@ npm start [port]
 # ADP Innovation Labs Pre-Interview Assignment
 
 Hello potential future coworker! :smile:
+
 We're looking forward to having some great days working on creating new projects, debugging issues, planning
 applications, solving problems, and all of the other fun things we do here in Innovation Labs - together with you!
+
 But before that, let's see if you can demonstrate some stock skills you'll need to be successful in this position :smiley:
 
 If anything isn't specifically called out here, feel free to be as inventive as you like - no pressure to adhere to any
 strict rules. Our primary goal is to know that you generally understand web application principles.
+
 Have fun!
 
 ## Task
@@ -31,6 +34,7 @@ Create a simple JavaScript (nodejs) application that makes an HTTP GET request t
 https://interview.adpeai.com/api/v1/get-task
 
 and then, using the ID and properties returned, dynamically perform the calculation as instructed.
+
 Once you have yourID and your result, make an HTTP POST request to
 
 https://interview.adpeai.com/api/v1/submit-task
