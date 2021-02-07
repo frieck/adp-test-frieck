@@ -1,6 +1,6 @@
 This application will create a simple server that will keep pooling data from the Get-task endpoint resolve its calculations and then submit the result to the submit-task endpoint (1 request every second) validating the returning response.
 
-The application also exposes a simple page (http://localhost:`port` where default port is 4000) so you can view  data being processed.
+The application also exposes a simple page (http://localhost:port where default port is 4000) so you can view  data being processed.
 
 Start by running 
 ```
