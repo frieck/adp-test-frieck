@@ -20,5 +20,8 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "mocha": "^8.2.1",
     "nock": "^13.0.7"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.3"
   }
 }

@@ -5,11 +5,11 @@ const {
 
 class Perform {
   /**
- * Calls a specific operation based on **operation**
- * @param {} operation the desired operation
- * @param {*} left left value
- * @param {*} right right value
- */
+  * Calls a specific operation based on **operation**
+  * @param {} operation the desired operation
+  * @param {*} left left value
+  * @param {*} right right value
+  */
   static performOperation(operation, left, right) {
     if (operation === 'addition') {
       return addition(left, right);
@@ -33,7 +33,7 @@ class Perform {
    * Gets a task, compute the operation result and send the result to validation
    * @returns a promise resolving the operation status and result, otherwise returns a rejection
    */
-  run() {
+  static run() {
     return new Promise((resolve) => {
       let currentTask = {};
       getTask().then((task) => {
@@ -41,7 +41,7 @@ class Perform {
         const {
           id, operation, left, right,
         } = task;
-        const result = this.performOperation(operation, left, right);
+        const result = Perform.performOperation(operation, left, right);
         return submitTask(id, result);
       }).then((data) => {
         const {
