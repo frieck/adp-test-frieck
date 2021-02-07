@@ -4,7 +4,7 @@ const { Subject } = require('rxjs');
 const { takeWhile } = require('rxjs/operators');
 const Perform = require('./src/perform');
 
-const port = 4000;
+const port = process.argv[2] || 4000;
 const calculationSubject = new Subject();
 const indexData = fs.readFileSync('index.html');
 
