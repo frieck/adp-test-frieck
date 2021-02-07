@@ -1,0 +1,23 @@
+{
+  "name": "adp-test-frieck",
+  "version": "1.0.0",
+  "description": "Test assignment for ADP",
+  "main": "index.js",
+  "author": "Felipe Augusto Rieck",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint . --ext .js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nock": "^13.0.7"
+  }
+}
