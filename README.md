@@ -49,6 +49,7 @@ Status Code | Description
 400 | Incorrect value in result; no ID specified; value is invalid
 404 | Value not found for specified ID
 503 | Error communicating with database
+
 Your code should be able to respond appropriately to these HTTP status codes (at your discretion).
 ## Evaluation Criteria
 
@@ -66,4 +67,4 @@ the work should be free of CORs errors when running on http://localhost
 - Project is linted with common ESLint config (airbnb, standard) and contains a `lint` script in
 `package.json`
 - unit tests / end-to-end tests are runnable via `npm test` command
-- Report any bugs or issues you find (there shouldn't be any, but who knows :wink:))
+- Report any bugs or issues you find (there shouldn't be any, but who knows :wink:)
