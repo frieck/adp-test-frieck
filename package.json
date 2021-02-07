@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Felipe Augusto Rieck",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "start": "node index.js",
     "lint": "eslint . --ext .js",
